@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// map is like hash in go object in js and dict in python
+	// map is like hash in java, object in js, and dict in python
 	/*
 	* map key are the same type and value also
 	 */
@@ -32,8 +32,9 @@ func printMap(c map[string]string) {
 }
 
 /*
-/Difference between map and struct
-	mqp key are in same type value also 
-	but struct can have different value 
-	map is reference type ans struct is value type 
-	struct need to know all keys in compile time 
+  Difference between map and struct
+	map key are in same type value also
+	but struct can have different value
+	map is reference type ans struct is value type
+	struct need to know all keys in compile time
+*/
